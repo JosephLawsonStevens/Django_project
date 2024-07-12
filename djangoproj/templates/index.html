@@ -1,0 +1,124 @@
+{% load static %}
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+        <title>Sinistory</title>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+	</head>
+	<body>
+    <a id = "mainim"></a>
+    <div id = "upperb">
+        <form action = "" name = "q=#Stories">
+            <button type = "submit" id = "upperb"><img src = "{% static 'images/arrowup.png' %}"></button>
+        </form>
+    </div>
+    <div class = "banner">
+        <div id = "GoatH" align = "center" width = "100px">Sinistory</div>
+        <div class = "menubar">
+            <ul>
+                <li><a href = "\register">Sign in</a></li>
+                <li><a href = "\login">Log in</a></li>
+                <li><a href = "\login1">Log out</a></li>
+<!--                <li><a href = "\admin">Admin Page</a></li>-->
+                <li><a>{{request.user}}</a></li>
+            </ul>
+        </div>
+        <div class = "container">
+            <form action = "" class = "searchbar">
+                <input type = "text" placeholder="search" name = "q">
+                <button type = "submit"><img src = "{% static 'images/flashlight.png' %}"></button>
+            </form>
+        </div>
+        <div class = "navbar">
+            <ul>
+                <li><a href = "#Characters" class = "menut">Characters</a></li>
+                <li><a href = "#Stories"class = "menut">Stories</a></li>
+                <li><a href = "#Credits"class = "menut">Credits</a></li>
+                <li><a href = "#Other"class = "menut">Other</a></li>
+            </ul>
+        </div>
+
+        <figure class = "imagep">
+            <img src = "{% static 'images/SlenderMn.jpg' %}"width = "200" height = "200" alt = "">
+            <figcaption>Slender Man</figcaption>
+        </figure>
+        <figure class = "imagep">
+            <img src = "{% static 'images/The_Rake.png' %}"width = "200" height = "200" alt = "">
+            <figcaption>The Rake</figcaption>
+        </figure>
+        <figure class = "imagep">
+            <img src = "{% static 'images/Jackwe.png' %}"width = "200" height = "200" alt = "">
+            <figcaption>Eyeless Jack</figcaption>
+        </figure>
+        <figure class = "imagep">
+            <img src = "{% static 'images/JeffTheKiller.png'%}"width = "200" height = "200" alt = "">
+            <figcaption>Jeff the killer</figcaption>
+        </figure>
+        <figure class = "imagep">
+            <img src = "{% static 'images/Smilerdoge.png'%}"width = "200" height = "200" alt = "">
+            <figcaption>Smile dog</figcaption>
+        </figure>
+        <figure class = "imagep">
+            <img src = "{% static 'images/ThumbZMCKZ2.jpg' %}">
+            <figcaption>GoatMan</figcaption>
+        </figure>
+        <div class = "GoatM" align = "center" width = "100px"><a name = "Stories">Stories</a></div>
+        <div class = "ordtext">
+            <a class = "ordt"> &emsp; In May of 1971, University of Maryland student George Lizama completed an undergraduate folklore project on the Goatman that was later added to the Maryland Folklife Archives. In Lizama’s paper, the Goatman was said to be located on Tucker Road
+                in Clinton, Maryland. <br> &emsp;Later the same year, reporter Karen Hosler discovered Lizama’s project in the Maryland Folklife Archives and reported on it in the Prince George’s
+                County News in October 1971, this time placing the Goatman near Fletchertown Road in Bowie, Maryland. Additionally, this report covered the theory that the Goatman’s origins can be traced to the Beltsville Agricultural Research Center.
+                <br>&emsp;While Goatman stories originated in the early 1970's, some of its legends are set in the 50s, within Prince George's County, following the disappearances and/or deaths of multiple dogs, which were later attributed to the creature. <br>&emsp;However, given the condition of remains,
+                the deaths may more likely have been the result of passing trains.
+                Despite evidence to the contrary, stories of Goatman's existence continued to circulate, especially among local students. Graffiti reading, "Goatman was here," was not uncommon,and law enforcement would habitually receive calls of reported sightings, albeit with a number being pranks.
+                The creature was commonly claimed to have a human face but with a body covered in hair. However, descriptions differed on whether Goatman greater resembled a hairy humanoid or a human with the lower portion of a goat similar to the fauns of Greek mythology.
+                <br>&emsp;As well, Goatman was rumored to reside in a makeshift shelter in the wooded region of northwestern Prince George's County near the vicinity of Bowie. Occasionally, it was rumored that Goatman would venture out to kill a dog or rush up abruptly beating cars with an ax.</a>
+        </div>
+        <div class = "GoatM" align = "center" width = "100px"><a name = "Characters">Characters</a></div>
+        <div class = "ordtext">
+            <a class = "ordt"> &emsp; In May of 1971, University of Maryland student George Lizama completed an undergraduate folklore project on the Goatman that was later added to the Maryland Folklife Archives. In Lizama’s paper, the Goatman was said to be located on Tucker Road
+                in Clinton, Maryland. <br> &emsp;Later the same year, reporter Karen Hosler discovered Lizama’s project in the Maryland Folklife Archives and reported on it in the Prince George’s
+                County News in October 1971, this time placing the Goatman near Fletchertown Road in Bowie, Maryland. Additionally, this report covered the theory that the Goatman’s origins can be traced to the Beltsville Agricultural Research Center.
+                <br>&emsp;While Goatman stories originated in the early 1970's, some of its legends are set in the 50s, within Prince George's County, following the disappearances and/or deaths of multiple dogs, which were later attributed to the creature. <br>&emsp;However, given the condition of remains,
+                the deaths may more likely have been the result of passing trains.
+                Despite evidence to the contrary, stories of Goatman's existence continued to circulate, especially among local students. Graffiti reading, "Goatman was here," was not uncommon,and law enforcement would habitually receive calls of reported sightings, albeit with a number being pranks.
+                The creature was commonly claimed to have a human face but with a body covered in hair. However, descriptions differed on whether Goatman greater resembled a hairy humanoid or a human with the lower portion of a goat similar to the fauns of Greek mythology.
+                <br>&emsp;As well, Goatman was rumored to reside in a makeshift shelter in the wooded region of northwestern Prince George's County near the vicinity of Bowie. Occasionally, it was rumored that Goatman would venture out to kill a dog or rush up abruptly beating cars with an ax.</a>
+        </div>
+        <div class = "GoatM" align = "center" width = "100px"><a name = "Credits">Credits</a></div>
+        <div class = "ordtext">
+            <a class = "ordt"> &emsp; In May of 1971, University of Maryland student George Lizama completed an undergraduate folklore project on the Goatman that was later added to the Maryland Folklife Archives. In Lizama’s paper, the Goatman was said to be located on Tucker Road
+                in Clinton, Maryland. <br> &emsp;Later the same year, reporter Karen Hosler discovered Lizama’s project in the Maryland Folklife Archives and reported on it in the Prince George’s
+                County News in October 1971, this time placing the Goatman near Fletchertown Road in Bowie, Maryland. Additionally, this report covered the theory that the Goatman’s origins can be traced to the Beltsville Agricultural Research Center.
+                <br>&emsp;While Goatman stories originated in the early 1970's, some of its legends are set in the 50s, within Prince George's County, following the disappearances and/or deaths of multiple dogs, which were later attributed to the creature. <br>&emsp;However, given the condition of remains,
+                the deaths may more likely have been the result of passing trains.
+                Despite evidence to the contrary, stories of Goatman's existence continued to circulate, especially among local students. Graffiti reading, "Goatman was here," was not uncommon,and law enforcement would habitually receive calls of reported sightings, albeit with a number being pranks.
+                The creature was commonly claimed to have a human face but with a body covered in hair. However, descriptions differed on whether Goatman greater resembled a hairy humanoid or a human with the lower portion of a goat similar to the fauns of Greek mythology.
+                <br>&emsp;As well, Goatman was rumored to reside in a makeshift shelter in the wooded region of northwestern Prince George's County near the vicinity of Bowie. Occasionally, it was rumored that Goatman would venture out to kill a dog or rush up abruptly beating cars with an ax.</a>
+        </div>
+        <div class = "GoatM" align = "center" width = "100px"><a name = "Other">Other</a></div>
+        <div class = "ordtext">
+            <a class = "ordt"> &emsp; In May of 1971, University of Maryland student George Lizama completed an undergraduate folklore project on the Goatman that was later added to the Maryland Folklife Archives. In Lizama’s paper, the Goatman was said to be located on Tucker Road
+                in Clinton, Maryland. <br> &emsp;Later the same year, reporter Karen Hosler discovered Lizama’s project in the Maryland Folklife Archives and reported on it in the Prince George’s
+                County News in October 1971, this time placing the Goatman near Fletchertown Road in Bowie, Maryland. Additionally, this report covered the theory that the Goatman’s origins can be traced to the Beltsville Agricultural Research Center.
+                <br>&emsp;While Goatman stories originated in the early 1970's, some of its legends are set in the 50s, within Prince George's County, following the disappearances and/or deaths of multiple dogs, which were later attributed to the creature. <br>&emsp;However, given the condition of remains,
+                the deaths may more likely have been the result of passing trains.
+                Despite evidence to the contrary, stories of Goatman's existence continued to circulate, especially among local students. Graffiti reading, "Goatman was here," was not uncommon,and law enforcement would habitually receive calls of reported sightings, albeit with a number being pranks.
+                The creature was commonly claimed to have a human face but with a body covered in hair. However, descriptions differed on whether Goatman greater resembled a hairy humanoid or a human with the lower portion of a goat similar to the fauns of Greek mythology.
+                <br>&emsp;As well, Goatman was rumored to reside in a makeshift shelter in the wooded region of northwestern Prince George's County near the vicinity of Bowie. Occasionally, it was rumored that Goatman would venture out to kill a dog or rush up abruptly beating cars with an ax.</a>
+        </div>
+
+        <div id = "GoatF" align = "center" width = "100px">
+            <div class = "navbar">
+                <ul>
+                    <li><a href = "#Characters" class = "menut">Characters</a></li>
+                    <li><a href = "#Stories"class = "menut">Stories</a></li>
+                    <li><a href = "#Credits"class = "menut">Credits</a></li>
+                    <li><a href = "#Other" class = "menut">Other</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

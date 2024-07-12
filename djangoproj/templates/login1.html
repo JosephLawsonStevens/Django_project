@@ -1,0 +1,69 @@
+{% load static %}
+<style>
+    p{
+    color:white;
+    }
+</style>
+<div class = "menut">{{message}}</div>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+    <title>Sinistory</title>
+</head>
+<body>
+     <a id = "mainim"></a>
+    <div class = "banner">
+        <div id = "GoatH" align = "center" width = "100px">Sinistory</div>
+        <div class = "regis">
+                <div class="container">
+                    <div class = "menubar">
+                        {% for message in messages %}
+                            <p id="messages">{{message}}</p>
+                        {% endfor %}
+                        </div>
+                    <form method="POST" action="">
+                        {% csrf_token %}
+                        <div class = "menut">
+                            <h1>Log in user</h1>
+                        </div>
+                        <label><b class = "menut">Name</b></label>
+                        <div class = "searchbar">
+                            <input type="text" placeholder="" name= "username">
+                        </div>
+                        <label><b class = "menut">Password</b></label>
+                        <div class = "searchbar">
+                            <input type="password" placeholder="" name ="password">
+                        </div>
+                        <style>
+                            input[type=submit]{
+                            box-shadow: 0 0 10px white;
+                            background-color: rgb(255, 255, 255);
+                            margin: 10px;
+                            margin-left: 40px;
+                            padding: 10px;
+                            width: 150px;
+                            text-align: center;
+                            border: 2px solid rgba(227, 227, 227, 0.503);
+                            display: inline-flex;
+                            list-style: none;
+                            font-family: 'Sono', sans-serif;
+                            margin-top: 30px;
+                            }
+                            </style>
+                        <input type="submit" value="Log in"/>
+                    </form>
+                </div>
+<!--                <div class = "menubar">-->
+<!--                    <ul>-->
+<!--                        <li><a href = "/admin">Admin page</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+    <div class = "banner">
+        <div id = "Footer" align = "center" width = "100px"></a></div>
+        <div class = "menubar">
+        </div>
+    </div>
+</body>
+</html>

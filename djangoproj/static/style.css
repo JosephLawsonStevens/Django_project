@@ -1,0 +1,333 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&family=Sono:wght@200&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+ol{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1000px;
+font-family: 'Sono', sans-serif;
+}
+.menubar{
+    text-align: right;    
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.p
+{
+    text-decoration: none;
+    color:white;
+}
+.menubar ul li
+{
+    box-shadow: 0 0 10px white;
+    background-color: rgba(255, 255, 255, 0.249);
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid rgba(123, 123, 123, 0.503);
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.menubar ul li:hover
+{
+    box-shadow: 0 0 20px white;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.586);
+    border-radius: 2px;
+    
+}
+.container{
+    width:90%;
+    min-height: 0.7vh;
+    padding:0.7%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar{
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding:5px 15px;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.7),
+    0 0 3px white,0 0 10px white;
+}
+.searchbar input{
+    background: transparent;
+    flex:1;
+    max-width: 700px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: black;
+}
+.searchbar button img{
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: -1px solid white;
+}
+.searchbar button img:hover{
+    width: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: -1px solid yellow;
+    box-shadow: 0 0 5px rgba(255, 255, 0, 0.644),
+    0 0 8px yellow,0 0 15px yellow;
+}
+.searchbar button{
+    border: 0;
+    border-radius: 100%;
+    width:40px;
+    height: 40px;
+    margin-right: 6px;
+    cursor: pointer;
+
+}
+#upperb{
+    position:fixed;
+    z-index: 5;
+    border-radius: 50%;
+    padding-right: 30px;
+    width:4%;
+    float: right;
+    height: 8%;
+    min-height: 0.3vh;
+    padding:0.7%;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#upperb button img{
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+#upperb button{
+    border: 0;
+    width:30px;
+    height: 30px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+}
+#upperl button img{
+    width: 80px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+#upperl button{
+    border: 0;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+#GoatH
+{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url(images/nightsky2.jpg);
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9),
+    0 0 20px white,0 0 40px white;
+    padding: 5px;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom:2px solid rgb(200, 200, 200);
+    line-height: 60px;
+    margin-bottom: 20px;
+    background-size:auto;
+    background-position:center;
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.5);
+}
+#GoatF
+{
+    color: white;
+    font-size: 52px;
+    padding: 0px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border-top:2px solid white;
+    background:rgb(10, 10, 10);
+    line-height: 30px;
+    margin-top: 50px;
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.5);
+    letter-spacing: -2px;
+}
+.ordtext{
+    margin-left: 40px;
+    margin-right: 390px;
+}
+.ordt{
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+.ordt a{
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    
+}
+.GoatM a:hover
+{
+    color: red;
+    font-size: 40px;
+    padding: 20px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+.GoatM a
+{
+    margin: 0 90px;
+    position: relative;
+    z-index: 1;
+    transition: 1.1s;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+.banner{
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+#mainim{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(images/DarkForestBG.jpg);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9),
+    0 0 20px white,0 0 40px white;
+    background-size: cover;
+    background-position:bottom;
+    position:fixed;
+    z-index: -5;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menut{
+    color: white;
+    font-size: 30px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    letter-spacing: -2px;
+    margin: 0 90px;
+    position: relative;
+    z-index: 1;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-duration: 1.5s;
+    
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    background: red;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 1.5s;
+    z-index: -1;
+}.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.imagep{
+    transition: 0.5s;
+    transform: scale(1);
+    padding-bottom: 30px;
+    margin-right: 6%;
+    margin-bottom: 7%;
+    transition: 1s;
+    position:relative;
+    float:right;
+    clear: both;
+}
+.imagep figcaption
+{
+    width:100%;
+    transform: scale(1);
+    padding:0;
+    font-size: 20px;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.7),
+    0 0 3px white,0 0 7px white;
+    transition: 1s;
+    padding-bottom: 1px;
+    color:white;
+    text-decoration: none;  
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+}
+.imagep img
+{ 
+    transform: scale(1);
+    transition: 1s;
+    max-width: 100%;
+    border: 1px solid white;
+    width: 200px;
+    height: 130px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.imagep:hover img
+{ 
+    transform: scale(1.3);
+    z-index: 1;
+}
